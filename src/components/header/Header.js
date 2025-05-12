@@ -22,6 +22,16 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <div className="kategoriya">
+                <ul>
+                    <li><a href="#" className="kategoriya_link">Nature</a></li>
+                    <li><a href="#" className="kategoriya_link">Photography</a></li>
+                    <li><a href="#" className="kategoriya_link">Relaxation</a></li>
+                    <li><a href="#" className="kategoriya_link">Vacation</a></li>
+                    <li><a href="#" className="kategoriya_link">Travel</a></li>
+                    <li><a href="#" className="kategoriya_link">Adventure</a></li>
+                </ul>
+            </div>
         </header>
     )
 }
