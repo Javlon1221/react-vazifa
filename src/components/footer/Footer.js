@@ -1,13 +1,17 @@
+import '../footer/footer.css';
+
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__container">
-        <p className="footer__text">© 2023. All rights reserved.</p>
-        <ul className="footer__socials">
-          <li><a href="#" className="footer__link">Facebook</a></li>
-          <li><a href="#" className="footer__link">Twitter</a></li>
-          <li><a href="#" className="footer__link">Instagram</a></li>
-        </ul>
+      <div className="container">
+         <div className="feature">
+             <p className='feature_text rang'>Stay in Touch</p>
+              <div className="feature_line"></div>
+          </div>
+        <form className='form' action="">
+            <input type="text" className='unput_text' placeholder='Enter your email address' />
+            <button className='btn' type='submit'>Submit</button>
+        </form>
       </div>
     </footer>
   );
